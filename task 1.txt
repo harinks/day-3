@@ -1,0 +1,49 @@
+For the given JSON iterate over all for loops (for, for in, for of, forEach)
+
+1. for loop:
+request.onload=function(){
+    var data = JSON.parse(request.response)
+    for(i=0;i<data.length;i++){
+        console.log(data[i])
+    }
+}
+
+
+2. for...in:
+request.onload=function(){
+    var data = JSON.parse(request.response)
+    for(var i in data){
+        console.log(data[i])
+	console.log(`${i}:${data[i]}`)
+    }
+}
+
+
+3. for...of:
+request.onload=function(){
+    var data = JSON.parse(request.response)
+    for(var i of data){
+        console.log(i)
+    }
+}
+request.onload=function(){
+    var data = JSON.parse(request.response)
+    for(var [key, value] in data){
+        console.log(key,value)
+    }
+}
+
+Difference between for...in and for...of is
+
+>The for...in statement iterates over the enumerable properties of an object.
+
+>The for...of statement iterates over values that the iterable object defines to be iterated over.
+
+
+4.forEach loop:
+request.onload=function(){
+    var data = JSON.parse(request.response)
+    data.forEach((element)=>{
+        console.log(element)
+    });
+}

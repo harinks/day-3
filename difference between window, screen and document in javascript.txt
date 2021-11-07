@@ -1,0 +1,49 @@
+3.What is the difference between window, screen and document in javascript
+
+
+>window is the execution context and global object for that context's JavaScript
+
+>document contains the DOM, initialized by parsing HTML
+
+>screen describes the physical display's full screen
+
+
+in the simply words, 
+
+screen is full display of the system or physical device.
+window is the browser application window with or without the content.
+document is the document of HTML document with properties and frames
+
+
+window properties include:
+
+>setTimeout() and setInterval() binding event handlers to a timer
+>location giving the current URL
+>history with methods back() and forward() giving the tab's mutable history
+>navigator describing the browser software
+
+
+document:
+
+Each window object has a document object to be rendered. 
+These objects get confused in part because HTML elements are added to the global object when assigned a unique id.
+
+<body>
+  <p id="demo"> This is the first paragraph.</p>
+</body>
+
+the paragraph element can be referenced by any of the following:
+
+window.demo or window["demo"]
+document.getElementById("demo")
+document.querySelector("#demo")
+document.body.demo
+document.body.array[0]
+
+
+Screen:
+
+The window object also has a screen object with properties describing the physical display:
+
+>screen properties width and height are the full screen
+>screen properties availWidth and availHeight omit the toolbar

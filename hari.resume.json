@@ -1,0 +1,72 @@
+{
+  "meta": {
+    "theme": "elegant"
+  },
+  "basics": {
+    "name": "Hariharan NKS",
+    "label": "Full Stack Developer",
+    "image": "https://avatars.githubusercontent.com/u/61103839?v=4",
+    "summary": "I’m a full stack web developer who can build apps from the ground up.I am a very product focussed developer who priotizes user feedback first and foremost. I'm generally very flexible when investigating new roles. ",
+    "email": "nkshariharan17@gmail.com",
+    "location": {
+      "Area": "Pattabiram",
+      "city": "Chennai",
+      "state": "Tamil Nadu",
+      "countryCode": "IND",
+      "Pincode": "600 072"
+    },
+    "profiles": [
+      {
+        "username": "harinks",
+        "url": "https://github.com/harinks",
+        "network": "github"
+      },
+      {
+        "url": "https://www.linkedin.com/in/hariharan-nks-b36b571a2/",
+        "username": "hariharan-nks",
+        "network": "linkedin"
+      }
+    ]
+  },
+  "education": [
+    {
+      "endDate": "2021",
+      "startDate": "2017",
+      "area": "Electronics and communication Engineering",
+      "studyType": "Bachelors",
+      "institution": "Chennai Institute of Technology"
+    },
+    {
+      "endDate": "2017",
+      "startDate": "2015",
+      "area": "Computer Science",
+      "studyType": "High School (12th)",
+      "institution": "Sethu Bhaskara Matric Hr Sec School"
+    }
+  ],
+  "skills": [
+    {
+      "keyword": [
+        "HTML",
+        "CSS",
+        "Javascript",
+        "Python",
+        "C and C++",
+        "Cloud computing - AWS, Azure fundamentals",
+        "Internet of Things(IoT)"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "projectname": "Smart Automatic Replenishment Vending Machine Using Amazon DRS",
+      "details": "Designing the low cost vending machine with the concept of automatic replenishment service by using connected cloud service with the machine.",
+      "Domain": "IoT, Microcontroller and Cloud Computing (AWS)"
+    },
+    {
+      "projectname": "Solar Panel with Sun Position Tracking",
+      "details": "The system requires a solar panel coupled with a stepping motor to keep tracking the sun and moving according to the maximum sunlight received.",
+      "Domain": "IoT, Microcontroller, Stepper motor and Solar Energy system"
+    }
+  ]
+}
